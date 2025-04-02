@@ -1,0 +1,13 @@
+train: ./newspaper_data/train/images
+val: ./newspaper_data/valid/images
+test: ./newspaper_data/test/images
+
+nc: 2
+names: ['IMAGE', 'TEXT']
+
+roboflow:
+  workspace: grabadosxix
+  project: newspaper_detection_rf
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/grabadosxix/newspaper_detection_rf/dataset/3

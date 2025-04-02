@@ -1,0 +1,13 @@
+train: ./spanishdocs/train/images
+val: ./spanishdocs/valid/images
+test: ./spanishdocs/test/images
+
+nc: 1
+names: ['text']
+
+roboflow:
+  workspace: tes1-c5hum
+  project: spanish-docs
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tes1-c5hum/spanish-docs/dataset/1
